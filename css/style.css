@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body { 
+    background-color: rgb(142, 243, 193);
+}
+
+header {
+    background-image:linear-gradient(to bottom, rgb(72, 163, 87), rgb(22, 87, 54));
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h1 {margin-bottom: 1%;}
+
+#title {
+    margin: 1%;
+    text-align: center;
+    padding: 1%;
+    margin-top: -2px;
+}
+
+main {
+    padding-top: 1.5%;
+    text-align: justify;
+    min-width: 280;
+    max-width: 800px;
+    margin: auto;
+    padding: 1em;
+}
+
+main article h2 {
+    text-align: left;
+    padding-bottom: 1%;
+    color: rgb(27, 116, 86);
+}
+
+main p {
+    padding-bottom: 1%;
+    text-indent: 2em;
+}
+
+#diviframe {
+    background-color: rgb(22, 87, 54);
+    min-width: 280;
+    max-width: 800px;
+}
+iframe {width: 100%;}
+
+header nav a {
+    padding: 0.5%;
+    color: white;
+    text-decoration: none;
+}
+
+main nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.center {
+    padding: auto;
+}
+
+.imagecenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+main strong {
+    color: #1a5c37;
+}
+
+.imagecenter2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.main2title {
+    background-color: rgb(35, 141, 58);
+    max-width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main2title h3 {
+    color: white;
+}
+
+.main2main {
+    background-color: rgb(147, 238, 192);
+    max-width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+footer {
+    background-color: rgb(22, 87, 54);
+    color: white;
+    text-align: center;
+    padding: 0.5%;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 1%;
+}
+
+main a {
+    text-decoration: none;
+    color: #1a5c37;
+    font-weight: bold;
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
+}
